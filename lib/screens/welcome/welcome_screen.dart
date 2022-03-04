@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import '/color_scheme.dart';
 import 'package:hobi_konnect/screens/welcome/widget/slider_dots.dart';
-
-class HomeScreen extends StatelessWidget {
+import 'package:hobi_konnect/screens/welcome/widget/login_and_register.dart';
+class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
         children: <Widget>[
-          Image.asset('assets/images/logo.png'),
+          Image.asset('assets/images/bg1.jpeg'),
           SliderDot(),
           SizedBox(
             height: 20,
           ),
           Text(
-            'Connect, chat and interact with same interest folks!',
+            'Welcome and connect!',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: mPrimaryTextColor,
@@ -25,6 +25,7 @@ class HomeScreen extends StatelessWidget {
           SizedBox(
             height: 60,
           ),
+          LoginAndRegister(),
         ],
       ),
     );

@@ -1,4 +1,4 @@
-  import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:hobi_konnect/screens/welcome/welcome_screen.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
         context,
         MaterialPageRoute(
           builder: (context) {
-            return HomeScreen();
+            return WelcomeScreen();
           },
         ),
         (route) => false,
@@ -33,12 +33,13 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/bg.jpg'),
+            image: AssetImage('assets/images/bg1.jpg'),
+              fit: BoxFit.cover,
           ),
         ),
         child: Center(
-          // child: AssetImage('assets/images/logo.png'),
-        ),
+            // child: AssetImage('assets/images/logo.png'),
+            ),
       ),
     );
   }
