@@ -25,10 +25,10 @@ class LoginScreen extends StatelessWidget {
               style: TextStyle(color: mPrimaryColor),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 60,
           ),
-          LoginButton(),
+          const LoginButton(),
           Container(
             padding: const EdgeInsets.symmetric(
               horizontal: 30,

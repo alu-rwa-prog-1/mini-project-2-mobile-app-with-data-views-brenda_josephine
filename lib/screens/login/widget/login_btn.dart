@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '/color_scheme.dart';
-import 'package:hobi_konnect/screens/welcome/welcome_screen.dart';
-
+import 'package:hobi_konnect/screens/home/home_screen.dart';
 class LoginButton extends StatelessWidget {
   const LoginButton({
     Key? key,
@@ -21,7 +20,7 @@ class LoginButton extends StatelessWidget {
             context,
             MaterialPageRoute(
               builder: (context) {
-                return WelcomeScreen();
+                return HomeScreen();
               },
             ),
           );

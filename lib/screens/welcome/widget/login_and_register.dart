@@ -24,7 +24,7 @@ class LoginAndRegister extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 16),
                 alignment: Alignment.center,
                 width: double.infinity,
-                child: Text(
+                child: const Text(
                   'Register',
                   style: TextStyle(
                     color: Colors.white,
@@ -33,7 +33,7 @@ class LoginAndRegister extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             width: 30,
           ),
           Expanded(
