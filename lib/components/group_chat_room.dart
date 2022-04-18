@@ -1,4 +1,4 @@
-import 'package:hobi_konnect/compomponent/group_info.dart';
+import 'package:hobi_konnect/components/group_info.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

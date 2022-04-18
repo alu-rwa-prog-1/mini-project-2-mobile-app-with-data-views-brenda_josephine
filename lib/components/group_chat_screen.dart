@@ -1,5 +1,5 @@
 import 'package:hobi_konnect/screens/login/widget/login_btn.dart';
-import 'package:hobi_konnect/compomponent/group_chat_room.dart';
+import 'package:hobi_konnect/components/group_chat_room.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

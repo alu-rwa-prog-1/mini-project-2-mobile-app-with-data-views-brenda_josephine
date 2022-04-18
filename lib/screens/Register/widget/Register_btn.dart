@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '/color_scheme.dart';
 // import 'package:hobi_konnect/screens/welcome/welcome_screen.dart';
-import 'package:hobi_konnect/compomponent/group_chat_screen.dart';
+import 'package:hobi_konnect/components/group_chat_screen.dart';
 
 class RegisterButton extends StatelessWidget {
   const RegisterButton({
