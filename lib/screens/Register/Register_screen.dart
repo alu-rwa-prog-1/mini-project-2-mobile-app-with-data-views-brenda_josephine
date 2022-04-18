@@ -34,9 +34,9 @@ class RegisterScreen extends StatelessWidget {
             alignment: Alignment.center,
             child: RichText(
               text: TextSpan(style: TextStyle(color: Colors.grey), children: [
-                TextSpan(text: 'Don\'t have an account? '),
+                TextSpan(text: 'Existing User? '),
                 TextSpan(
-                  text: 'Register',
+                  text: 'Login',
                   style: TextStyle(
                     color: mPrimaryColor,
                   ),

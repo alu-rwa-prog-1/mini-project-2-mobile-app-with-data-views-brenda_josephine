@@ -8,7 +8,10 @@ class WelcomeScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: <Widget>[
-          Image.asset('assets/images/bg1.jpeg'),
+          Image.asset('assets/images/welcomeIMG.png',
+            height: 250,
+            width: 250,
+          ),
           SliderDot(),
           SizedBox(
             height: 20,
