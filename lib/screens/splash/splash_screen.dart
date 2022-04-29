@@ -1,28 +1,17 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 // import '../../color_scheme.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:hobi_konnect/screens/welcome/welcome_screen.dart';
-=======
-import 'package:animated_splash_screen/animated_splash_screen.dart';
-import 'package:hobi_konnect/screens/home/components/body.dart';
-// import 'package:hobi_konnect/screens/welcome/welcome_screen.dart';
->>>>>>> d93ba251e61bba7853c6db4cb249e312f1b7d795
 
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
-<<<<<<< HEAD
-
-=======
->>>>>>> d93ba251e61bba7853c6db4cb249e312f1b7d795
   @override
   _SplashScreenState createState() => _SplashScreenState();
 }
 
 class _SplashScreenState extends State<SplashScreen> {
   @override
-<<<<<<< HEAD
   Widget build(BuildContext context) {
     return AnimatedSplashScreen(
         // splash: 'assets/images/logo.png', // use any widget here
@@ -66,17 +55,6 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
           ],
         ),
-=======
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: AnimatedSplashScreen(
-        splash: Image.asset('assets/images/bg.jpeg'),
-        // nextScreen: WelcomeScreen(),
-        nextScreen: const Body(),
-        splashTransition: SplashTransition.decoratedBoxTransition,
-        backgroundColor: Colors.pinkAccent,
-        duration: 1000,
->>>>>>> d93ba251e61bba7853c6db4cb249e312f1b7d795
       ),
     );
   }
